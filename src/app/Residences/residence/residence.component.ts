@@ -28,7 +28,7 @@ export class ResidenceComponent {
     listFavoris: Residence[] = [];
 visiblity=false;
 vv! :string;
-    showLocation(r:Residence ){
+showLocation(r:Residence ){
       if (r.address=== "inconnu"){
         alert('adr inconnu')
       }
