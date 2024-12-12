@@ -7,10 +7,12 @@ import { ResidenceDetailsComponent } from './Residences/residence-details/reside
 import { ApartmentsComponent } from './appartement/apartments/apartments.component';
 import { AddAppartmentComponent } from './appartement/add-appartment/add-appartment.component';
 import { UserComponent } from './user/user.component';
+import { AddResidenceComponent } from './Residences/add-residence/add-residence.component';
 
 const routes: Routes = [
   { path: "home1", component: HomeComponent },
   { path: "adduser", component: UserComponent },
+  { path: "addr", component: AddResidenceComponent },
 
   { path: "residence", component: ResidenceComponent },
   { path: "residence/details/:id", component: ResidenceDetailsComponent},

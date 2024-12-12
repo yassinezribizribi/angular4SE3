@@ -13,6 +13,8 @@ import { ResidenceDetailsComponent } from './Residences/residence-details/reside
 import { UserComponent } from './user/user.component';
 import { AddAppartmentComponent } from './appartement/add-appartment/add-appartment.component';
 import { ApartmentsComponent } from './appartement/apartments/apartments.component';
+import { HttpClientModule } from '@angular/common/http';
+import { AddResidenceComponent } from './Residences/add-residence/add-residence.component';
 
 @NgModule({
   declarations: [
@@ -25,12 +27,13 @@ import { ApartmentsComponent } from './appartement/apartments/apartments.compone
     ResidenceDetailsComponent,
     UserComponent,
     AddAppartmentComponent,
-    ApartmentsComponent
+    ApartmentsComponent,
+    AddResidenceComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-
+    HttpClientModule,
     ReactiveFormsModule,
     FormsModule,
   ],
